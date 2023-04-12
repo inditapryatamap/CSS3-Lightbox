@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS3 - Lightbox</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    <h1>AKATSUKI</h1>
+    <div class="container">
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                    <img src="img/thumbs/img1.JPG" alt="Konan">
+                    <span>Konan</span>
+                </a>
+                <div class="overlay" id="gambar-1">
+                    <a href="#" class="close">Close</a>
+                    <a href="#gambar-4" class="prev">Prev</a>
+                    <img src="img/full/img1.JPG" alt="Konan">
+                    <a href="#gambar-2" class="next">Next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-2">
+                    <img src="img/thumbs/img2.JPG" alt="Yahiko">
+                    <span>Yahiko</span>
+                </a>
+                <div class="overlay" id="gambar-2">
+                    <a href="#" class="close">Close</a>
+                    <a href="#gambar-1" class="prev">Prev</a>
+                    <img src="img/full/img2.JPG" alt="Yahiko">
+                    <a href="#gambar-3" class="next">Next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-3">
+                    <img src="img/thumbs/img3.JPG" alt="Nagato">
+                    <span>Nagato</span>
+                </a>
+                <div class="overlay" id="gambar-3">
+                    <a href="#" class="close">Close</a>
+                    <a href="#gambar-2" class="prev">Prev</a>
+                    <img src="img/full/img3.JPG" alt="Nagato">
+                    <a href="#gambar-4" class="next">Next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-4">
+                    <img src="img/thumbs/img4.JPG" alt="Pain">
+                    <span>Pain</span>
+                </a>
+                <div class="overlay" id="gambar-4">
+                    <a href="#" class="close">Close</a>
+                    <a href="#gambar-3" class="prev">Prev</a>
+                    <img src="img/full/img4.JPG" alt="Pain">
+                    <a href="#gambar-1" class="next">Next</a>
+                </div>
+            </li>
+            
+            <div class="clear"></div>
+        </ul>
+    </div>
+
+</body>
+</html>
